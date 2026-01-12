@@ -1,0 +1,192 @@
+cv:
+  name: Gaspar Antonio Astorga Palma
+  label: IT Process Management | Master in Business Intelligence
+  location: Prague, Czechia
+  email: gasparastorga13@gmail.com
+  phone: "+420 730 863 054"
+  website: https://your-website.com
+  social_networks:
+    - network: LinkedIn
+      username: gaspar-antonio-astorga-palma
+    - network: GitHub
+      username: gaaprojects
+
+  sections:
+    Summary:
+      - Strategic digitalization and IT project management professional with proven expertise in AI-driven transformation, data analytics, and enterprise system integration. Currently orchestrating AI governance and strategic initiatives across Finance and Legal functions at SKODA AUTO. Distinguished academic background with top honors in Business Administration and specialized training in Business Intelligence. Combines deep technical proficiency (Python, SQL, Power BI, AI/ML) with strong business acumen to deliver measurable impact in complex organizational environments.
+
+    Professional Experience:
+      - company: SKODA AUTO
+        position: AI Business Partner -- Finance & Legal
+        location: Mladá Boleslav, Czechia
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Define and execute comprehensive AI strategy for Finance and Legal functions, ensuring full alignment with enterprise roadmap and IT infrastructure objectives
+          - Lead cross-functional AI initiatives from ideation through deployment, serving as primary strategic interface between business leadership, IT, data science, and legal teams
+          - Architect organizational AI governance frameworks covering risk classification, EU AI Act compliance, documentation standards, and operational controls
+          - Orchestrate foundational AI projects driving automation of complex legal and financial workflows, delivering measurable efficiency gains and scalability
+          - Establish communications strategy and change management protocols to accelerate digital transformation adoption across stakeholder groups
+
+      - company: SKODA AUTO
+        position: Business Trainee Program
+        location: Mladá Boleslav, Czechia
+        start_date: 2024-09
+        end_date: 2025-12
+        highlights:
+          - "**F DDC: Digital Delivery Center for F Area** -- Delivered AI-powered solutions for production optimization, deploying low-code and no-code platforms to streamline critical business processes"
+          - "**PPD: Digitalization and Industry 4.0** -- Drove automation initiatives across Digital Delivery Center, achieving process improvements in production environments; Managed data mapping initiatives as Data Steward, ensuring data quality and governance compliance"
+          - "**FIP: IT Process and System Integration** -- Led external consulting teams in defining AI strategic target architecture for Production division; Conducted comprehensive benchmarking and scouting of cutting-edge AI solutions across automotive industry; Assessed VW Group IT project portfolio (multi-million EUR budget) to maximize business value and ROI"
+
+      - company: KPMG
+        position: Financial Auditor
+        location: Málaga, Spain
+        start_date: 2023-10
+        end_date: 2024-01
+        highlights:
+          - Identified and reported critical account errors, preventing potential legal exposure for multinational clients
+          - Reconciled complex stock discrepancies collaborating with warehouse management teams
+          - Conducted comprehensive financial analysis and prepared detailed verification reports for audit engagements
+
+      - company: Ernst & Young
+        position: Intern FSO Business Consulting TPRM
+        location: Málaga, Spain
+        start_date: 2023-02
+        end_date: 2023-05
+        highlights:
+          - Analyzed and reported reputational and financial risks tied to outsourced cloud and technology services for banking sector clients
+          - Evaluated third-party software vendors and technical operations for compliance with regulatory requirements
+          - Developed comprehensive risk assessment frameworks for technology service providers
+
+    Education:
+      - institution: International University of La Rioja
+        area: Business Intelligence
+        degree: Master
+        location: Spain (Remote)
+        start_date: 2024-02
+        end_date: 2025-05
+        highlights:
+          - "Specialized coursework: Machine learning model development in R and Python, advanced SQL database management, Power BI visualization and data storytelling, big data analytics"
+
+      - institution: University of Málaga
+        area: Business Administration
+        degree: Bachelor (BBA)
+        location: Spain
+        start_date: 2019-09
+        end_date: 2023-06
+        highlights:
+          - "**Extraordinary Award**: Best graduate in Business Administration 2019-2023 (University-wide recognition)"
+          - "**Gauss Award 2021-2022**: Highest academic performance in Statistics and Econometrics"
+          - "Core coursework: Statistics and econometrics, business analysis, strategic control, corporate finance, macroeconomics, mathematics applied to business, financial accounting, project management"
+
+      - institution: University of Regensburg
+        area: Business Administration
+        degree: Erasmus Exchange Program
+        location: Germany
+        start_date: 2022-09
+        end_date: 2023-02
+        highlights:
+          - "International business coursework: Corporate sustainability, Business & Personal Psychology, European Economy"
+
+      - institution: Miguel de Cervantes University
+        area: Private Security
+        degree: Director/Manager Certificate
+        location: Spain
+        start_date: 2018-09
+        end_date: 2019-06
+        highlights:
+          - "Specialized training: Risk management, security gap analysis, team management, critical infrastructure security, comprehensive security reporting"
+
+    Technical Skills:
+      - label: Programming
+        details: "**Advanced:** Python, R, SQL | **Proficient:** Linux/Bash scripting"
+      - label: Data & Analytics
+        details: Power BI, Databricks, SQL Server, Advanced Excel, Statistical Modeling
+      - label: AI & ML
+        details: AI Prompting, Machine Learning (scikit-learn, TensorFlow), LangGraph AI Agents, AI Governance
+      - label: Productivity
+        details: Microsoft 365 Suite, SharePoint, Teams, Advanced PowerPoint
+      - label: Methodologies
+        details: Agile/Scrum, Digital Transformation, Change Management, Data Stewardship
+
+    Professional Certifications:
+      - label: In Progress
+        details: AI Product Manager Professional Certificate -- Microsoft
+      - label: "2024"
+        details: AI Python for Beginners -- DeepLearning.ai
+      - label: "2024"
+        details: AI Agents in LangGraph -- DeepLearning.ai
+
+    Core Competencies:
+      - Strategic thinking and results-driven execution
+      - Advanced analytical and quantitative problem-solving
+      - Cross-functional team leadership and stakeholder management
+      - Technical troubleshooting and system optimization
+      - Effective communication across technical and business audiences
+      - Deadline-focused delivery with exceptional attention to detail
+      - Adaptable team player with demonstrated independent initiative
+
+    Languages:
+      - label: Spanish
+        details: Native proficiency
+      - label: English
+        details: Professional working proficiency (C1)
+      - label: German
+        details: Professional working proficiency (B2/C1)
+      - label: French
+        details: Intermediate proficiency (B1)
+
+design:
+  theme: sb2nov
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+  colors:
+    name: rgb(0,79,144)
+    connections: rgb(0,79,144)
+    section_titles: rgb(0,79,144)
+    links: rgb(0,79,144)
+  header:
+    alignment: center
+  entries:
+    date_and_location_width: 4.5cm
+    short_second_row: false
+
+locale_catalog:
+  phone_number_format: national
+  date_style: "MONTH_ABBREVIATION YEAR"
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: "–"

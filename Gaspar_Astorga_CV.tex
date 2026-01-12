@@ -1,0 +1,182 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Define colors
+\definecolor{headercolor}{RGB}{0,51,102}
+\definecolor{accentcolor}{RGB}{0,102,204}
+
+% Formatting
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=2pt}
+
+% Section formatting
+\titleformat{\section}
+  {\Large\bfseries\color{headercolor}}
+  {}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Custom commands
+\newcommand{\cventry}[5]{
+  \textbf{#1} \hfill \textit{#2}\\
+  \textit{#3} \hfill #4\\
+  #5
+  \vspace{6pt}
+}
+
+\newcommand{\cvitem}[2]{
+  \textbf{#1:} #2
+  \vspace{2pt}
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accentcolor,
+    urlcolor=accentcolor,
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+  {\Huge\bfseries\color{headercolor} GASPAR ANTONIO ASTORGA PALMA}\\[4pt]
+  {\large IT Process Management | Master in Business Intelligence}\\[8pt]
+  +420 730 863 054 $\bullet$ 
+  \href{mailto:gasparastorga13@gmail.com}{gasparastorga13@gmail.com} $\bullet$ 
+  Mladá Boleslav, Czechia
+\end{center}
+
+\vspace{4pt}
+
+\section{Executive Summary}
+
+Strategic digitalization and IT project management professional with proven expertise in AI-driven transformation, data analytics, and enterprise system integration. Currently orchestrating AI governance and strategic initiatives across Finance and Legal functions at ŠKODA AUTO. Distinguished academic background with top honors in Business Administration and specialized training in Business Intelligence. Combines deep technical proficiency (Python, SQL, Power BI, AI/ML) with strong business acumen to deliver measurable impact in complex organizational environments.
+
+\vspace{4pt}
+
+\section{Professional Experience}
+
+\cventry{AI Business Partner -- Finance \& Legal}{Jan 2026 -- Present}{ŠKODA AUTO}{Mladá Boleslav, Czechia}{
+\begin{itemize}
+    \item Define and execute comprehensive AI strategy for Finance and Legal functions, ensuring full alignment with enterprise roadmap and IT infrastructure objectives
+    \item Lead cross-functional AI initiatives from ideation through deployment, serving as primary strategic interface between business leadership, IT, data science, and legal teams
+    \item Architect organizational AI governance frameworks covering risk classification, EU AI Act compliance, documentation standards, and operational controls
+    \item Orchestrate foundational AI projects driving automation of complex legal and financial workflows, delivering measurable efficiency gains and scalability
+    \item Establish communications strategy and change management protocols to accelerate digital transformation adoption across stakeholder groups
+\end{itemize}}
+
+\cventry{Business Trainee Program}{Sep 2024 -- Dec 2025}{ŠKODA AUTO}{Mladá Boleslav, Czechia}{
+\textbf{F DDC: Digital Delivery Center for F Area}
+\begin{itemize}
+    \item Delivered AI-powered solutions for production optimization, deploying low-code and no-code platforms to streamline critical business processes
+\end{itemize}
+\textbf{PPD: Digitalization and Industry 4.0}
+\begin{itemize}
+    \item Drove automation initiatives across Digital Delivery Center, achieving process improvements in production environments
+    \item Managed data mapping initiatives as Data Steward, ensuring data quality and governance compliance
+\end{itemize}
+\textbf{FIP: IT Process and System Integration}
+\begin{itemize}
+    \item Led external consulting teams in defining AI strategic target architecture for Production division
+    \item Conducted comprehensive benchmarking and scouting of cutting-edge AI solutions across automotive industry
+    \item Assessed VW Group IT project portfolio (multi-million EUR budget) to maximize business value and ROI
+\end{itemize}}
+
+\cventry{Financial Auditor}{Oct 2023 -- Jan 2024}{KPMG}{Málaga, Spain}{
+\begin{itemize}
+    \item Identified and reported critical account errors, preventing potential legal exposure for multinational clients
+    \item Reconciled complex stock discrepancies collaborating with warehouse management teams
+    \item Conducted comprehensive financial analysis and prepared detailed verification reports for audit engagements
+\end{itemize}}
+
+\cventry{Intern FSO Business Consulting TPRM}{Feb 2023 -- May 2023}{Ernst \& Young}{Málaga, Spain}{
+\begin{itemize}
+    \item Analyzed and reported reputational and financial risks tied to outsourced cloud and technology services for banking sector clients
+    \item Evaluated third-party software vendors and technical operations for compliance with regulatory requirements
+    \item Developed comprehensive risk assessment frameworks for technology service providers
+\end{itemize}}
+
+\vspace{4pt}
+
+\section{Education}
+
+\cventry{Master in Business Intelligence}{Feb 2024 -- May 2025}{International University of La Rioja}{Spain (Remote)}{
+\begin{itemize}
+    \item Specialized coursework: Machine learning model development in R and Python, advanced SQL database management, Power BI visualization and data storytelling, big data analytics
+\end{itemize}}
+
+\cventry{Bachelor of Business Administration (BBA)}{Sep 2019 -- Jun 2023}{University of Málaga}{Spain}{
+\begin{itemize}
+    \item \textbf{Extraordinary Award}: Best graduate in Business Administration 2019-2023 (University-wide recognition)
+    \item \textbf{Gauss Award 2021-2022}: Highest academic performance in Statistics and Econometrics
+    \item Core coursework: Statistics and econometrics, business analysis, strategic control, corporate finance, macroeconomics, mathematics applied to business, financial accounting, project management
+\end{itemize}}
+
+\cventry{Erasmus Exchange Program}{Sep 2022 -- Feb 2023}{University of Regensburg}{Germany}{
+\begin{itemize}
+    \item International business coursework: Corporate sustainability, Business \& Personal Psychology, European Economy
+\end{itemize}}
+
+\cventry{Director/Manager Certificate for Private Security}{Sep 2018 -- Jun 2019}{Miguel de Cervantes University}{Spain}{
+\begin{itemize}
+    \item Specialized training: Risk management, security gap analysis, team management, critical infrastructure security, comprehensive security reporting
+\end{itemize}}
+
+\vspace{4pt}
+
+\section{Technical Skills}
+
+\cvitem{Programming}{\textbf{Advanced:} Python, R, SQL | \textbf{Proficient:} Linux/Bash scripting}
+
+\cvitem{Data \& Analytics}{Power BI, Databricks, SQL Server, Advanced Excel, Statistical Modeling}
+
+\cvitem{AI \& ML}{AI Prompting, Machine Learning (scikit-learn, TensorFlow), LangGraph AI Agents, AI Governance}
+
+\cvitem{Productivity}{Microsoft 365 Suite, SharePoint, Teams, Advanced PowerPoint}
+
+\cvitem{Methodologies}{Agile/Scrum, Digital Transformation, Change Management, Data Stewardship}
+
+\vspace{4pt}
+
+\section{Professional Certifications}
+
+\cvitem{In Progress}{AI Product Manager Professional Certificate -- Microsoft}
+
+\cvitem{2024}{AI Python for Beginners -- DeepLearning.ai}
+
+\cvitem{2024}{AI Agents in LangGraph -- DeepLearning.ai}
+
+\vspace{4pt}
+
+\section{Core Competencies}
+
+\begin{itemize}
+    \item Strategic thinking and results-driven execution
+    \item Advanced analytical and quantitative problem-solving
+    \item Cross-functional team leadership and stakeholder management
+    \item Technical troubleshooting and system optimization
+    \item Effective communication across technical and business audiences
+    \item Deadline-focused delivery with exceptional attention to detail
+    \item Adaptable team player with demonstrated independent initiative
+\end{itemize}
+
+\vspace{4pt}
+
+\section{Languages}
+
+\cvitem{Spanish}{Native proficiency}
+
+\cvitem{English}{Professional working proficiency (C1)}
+
+\cvitem{German}{Professional working proficiency (B2/C1)}
+
+\cvitem{French}{Intermediate proficiency (B1)}
+
+\end{document}
