@@ -44,7 +44,7 @@ Strategic digitalization and IT project management professional with proven expe
 
 - **PPD: Digitalization and Industry 4.0** -- Drove automation initiatives across Digital Delivery Center, achieving process improvements in production environments; Managed data mapping initiatives as Data Steward, ensuring data quality and governance compliance
 
-- **FIP: IT Process and System Integration** -- Led external consulting teams in defining AI strategic target architecture for Production division; Conducted comprehensive benchmarking and scouting of cutting-edge AI solutions across automotive industry; Assessed VW Group IT project portfolio (multi-million EUR budget) to maximize business value and ROI
+- **FIP: IT Process and System Integration** -- Led external consulting teams in defining AI strategic target architecture for Production division; Conducted comprehensive benchmarking and scouting of cutting-edge AI solutions across automotive industry; Assessed VW Group IT project portfolio to maximize business value and ROI
 
 
 
