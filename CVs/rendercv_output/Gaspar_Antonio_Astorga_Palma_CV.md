@@ -12,7 +12,7 @@
 Strategic digitalization and IT project management professional with proven expertise in AI-driven transformation, data analytics, and enterprise system integration. Currently orchestrating AI governance and strategic initiatives across Finance and Legal functions at SKODA AUTO. Distinguished academic background with top honors in Business Administration and specialized training in Business Intelligence. Combines deep technical proficiency (Python, SQL, Power BI, AI/ML) with strong business acumen to deliver measurable impact in complex organizational environments.
 
 # Professional Experience
-## **AI Business Partner -- Finance & Legal**
+## **AI Business Partner & AI Analyst -- Finance & Legal**
 
 *Mladá Boleslav, Czechia*
 

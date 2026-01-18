@@ -103,7 +103,7 @@ Strategic digitalization and IT project management professional with proven expe
 
 #regular-entry(
   [
-    #strong[AI Business Partner -- Finance & Legal]
+    #strong[AI Business Partner & AI Analyst -- Finance & Legal]
 
     #emph[SKODA AUTO]
 
