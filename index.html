@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,159 +10,235 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
-        <div class="nav-content">
-            <a href="#" class="logo">GA</a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#work">Work</a>
-                <a href="#contact">Contact</a>
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">GA<span class="accent">.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
-    <main>
-        <section class="hero">
-            <div class="hero-badge fade-in">AI & Data</div>
-            <h1 class="fade-in">Building at the intersection of data and business.</h1>
-            <p class="fade-in">I help organizations make sense of their data and navigate AI transformation. Currently at ŠKODA AUTO, working on AI strategy for Finance and Legal.</p>
-            <div class="hero-actions fade-in">
-                <a href="#contact" class="btn-primary">Get in touch</a>
-                <a href="./Gaspar_Astorga_CV.pdf" class="btn-secondary" download="Gaspar_Astorga_CV.pdf">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Download CV
-                </a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Gaspar Astorga</h1>
+                <p class="hero-tagline">AI & Data Enthusiast<span class="accent"> | </span>Digital Transformation
+                    Advocate<span class="accent"> | </span>Problem Solver</p>
+                <p class="hero-description">
+                    Passionate about leveraging artificial intelligence and data analytics to drive meaningful change.
+                    I thrive at the intersection of technology and business, turning complex challenges into elegant
+                    solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="Gaspar_Astorga_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+                </div>
             </div>
             <div class="hero-visual">
-                <div class="floating-card card-1">
-                    <span class="card-icon">📊</span>
-                    <span>Data Analytics</span>
-                </div>
-                <div class="floating-card card-2">
-                    <span class="card-icon">🤖</span>
-                    <span>AI Strategy</span>
-                </div>
-                <div class="floating-card card-3">
-                    <span class="card-icon">⚡</span>
-                    <span>Automation</span>
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">const</span> <span class="variable">gaspar</span> = {
+  <span class="property">passion</span>: <span class="string">"AI & Data"</span>,
+  <span class="property">mission</span>: <span class="string">"Transform ideas into impact"</span>,
+  <span class="property">languages</span>: [<span class="string">"ES"</span>, <span class="string">"EN"</span>, <span class="string">"DE"</span>, <span class="string">"FR"</span>],
+  <span class="property">status</span>: <span class="string">"Always learning"</span>
+};</code></pre>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-        <section id="about" class="about">
-            <div class="section-header">
-                <span class="section-tag">About</span>
-                <h2>A bit about me</h2>
-            </div>
-            <div class="about-grid">
-                <div class="about-main slide-up">
-                    <p>I'm drawn to problems where technology meets real business needs. My background spans consulting at EY and KPMG, and now leading AI initiatives in the automotive industry.</p>
-                    <p>I studied Business Administration in Málaga, spent time in Germany on exchange, and recently completed a Master's in Business Intelligence. Along the way, I picked up a few languages—Spanish, English, German, and some French.</p>
-                    <p>Outside of work, I stay curious. I travel when I can, stay active, and spend too much time reading about where AI is heading next.</p>
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a strategic digitalization professional with a deep passion for AI-driven transformation
+                        and data analytics. Currently orchestrating AI governance and strategic initiatives at
+                        <strong>ŠKODA AUTO</strong>, I combine technical expertise with business acumen to deliver
+                        measurable impact.
+                    </p>
+                    <p>
+                        With a Master's in Business Intelligence and a distinguished academic background (graduated
+                        top of my class in Business Administration), I approach every challenge with curiosity
+                        and analytical rigor.
+                    </p>
+                    <p>
+                        Beyond the professional realm, I'm driven by continuous learning, exploring new technologies,
+                        staying active through sports, and discovering new cultures through travel.
+                    </p>
                 </div>
-                <div class="about-cards">
-                    <div class="info-card slide-up">
-                        <div class="info-icon">📍</div>
-                        <h3>Based in</h3>
-                        <p>Prague, Czechia</p>
-                    </div>
-                    <div class="info-card slide-up">
-                        <div class="info-icon">🎯</div>
-                        <h3>Focus</h3>
-                        <p>AI Strategy, Data Analytics, Process Automation</p>
-                    </div>
-                    <div class="info-card slide-up">
-                        <div class="info-icon">🛠</div>
-                        <h3>Tools</h3>
-                        <p>Python, SQL, Power BI, and whatever gets the job done</p>
-                    </div>
-                    <div class="info-card slide-up">
-                        <div class="info-icon">🌍</div>
-                        <h3>Languages</h3>
-                        <p>Spanish, English, German, French</p>
+                <div class="about-interests">
+                    <h3>What Drives Me</h3>
+                    <div class="interest-tags">
+                        <span class="tag"><span class="tag-icon">🤖</span> AI & Machine Learning</span>
+                        <span class="tag"><span class="tag-icon">📊</span> Data Analytics</span>
+                        <span class="tag"><span class="tag-icon">📚</span> Continuous Learning</span>
+                        <span class="tag"><span class="tag-icon">🏃</span> Sports & Fitness</span>
+                        <span class="tag"><span class="tag-icon">✈️</span> Travel & Culture</span>
+                        <span class="tag"><span class="tag-icon">🌍</span> Languages</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="projects" class="projects">
-            <div class="section-header">
-                <span class="section-tag">Projects</span>
-                <h2>What I've been working on</h2>
-            </div>
-            <div class="projects-grid">
-                <article class="project-card featured slide-up">
-                    <div class="project-label">ŠKODA AUTO</div>
-                    <h3>AI Governance Framework</h3>
-                    <p>Designed and implemented an enterprise AI governance framework covering risk classification, EU AI Act compliance, and operational controls for Finance and Legal functions.</p>
-                    <div class="project-tags">
-                        <span>AI Strategy</span>
-                        <span>Compliance</span>
-                        <span>Governance</span>
-                    </div>
-                </article>
-                <article class="project-card slide-up">
-                    <div class="project-label">ŠKODA AUTO</div>
-                    <h3>Production AI Solutions</h3>
-                    <p>Delivered AI-powered solutions for production optimization using low-code platforms, streamlining critical business processes in manufacturing.</p>
-                    <div class="project-tags">
-                        <span>Automation</span>
-                        <span>Industry 4.0</span>
-                    </div>
-                </article>
-                <article class="project-card slide-up">
-                    <div class="project-label">VW Group</div>
-                    <h3>IT Portfolio Assessment</h3>
-                    <p>Evaluated multi-million EUR IT project portfolio to maximize business value and ROI across the Volkswagen Group production division.</p>
-                    <div class="project-tags">
-                        <span>Strategy</span>
-                        <span>Analysis</span>
-                    </div>
-                </article>
-                <article class="project-card slide-up">
-                    <div class="project-label">Personal</div>
-                    <h3>AI Agents & Experiments</h3>
-                    <p>Building and experimenting with AI agents, exploring practical applications of large language models.</p>
-                    <div class="project-tags">
-                        <span>ADKs</span>
-                        <span>Python</span>
-                        <span>LLMs</span>
-                    </div>
-                    <a href="https://github.com/gaaprojects" class="project-link" target="_blank" rel="noopener">
-                        View on GitHub
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="7" y1="17" x2="17" y2="7"></line>
-                            <polyline points="7 7 17 7 17 17"></polyline>
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
                         </svg>
-                    </a>
-                </article>
-            </div>
-        </section>
-
-        <section id="work" class="work">
-            <div class="section-header">
-                <span class="section-tag">Experience</span>
-                <h2>Where I've worked</h2>
-            </div>
-            <div class="timeline">
-                <article class="role slide-up">
-                    <div class="role-marker"></div>
-                    <div class="role-content">
-                        <div class="role-header">
-                            <div>
-                                <h3>AI Business Partner, Finance & Legal</h3>
-                                <p class="company">ŠKODA AUTO</p>
-                            </div>
-                            <span class="date">2026 — Present</span>
-                        </div>
-                        <p>Defining AI strategy for Finance and Legal functions. I work across teams—business, IT, data science, legal—to take AI projects from idea to deployment.</p>
                     </div>
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag advanced">Python</span>
+                        <span class="skill-tag advanced">R</span>
+                        <span class="skill-tag advanced">SQL</span>
+                        <span class="skill-tag proficient">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3>Data & Analytics</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Databricks</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Statistical Modeling</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                            <path d="M12 2a10 10 0 0 1 10 10"></path>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">AI Governance</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag advanced">Spanish (Native)</span>
+                        <span class="skill-tag advanced">English (C1)</span>
+                        <span class="skill-tag proficient">German (B2/C1)</span>
+                        <span class="skill-tag">French (B1)</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Methodologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Digital Transformation</span>
+                        <span class="skill-tag">Change Management</span>
+                        <span class="skill-tag">Data Stewardship</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Microsoft 365</span>
+                        <span class="skill-tag">SharePoint</span>
+                        <span class="skill-tag">Advanced Excel</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="section-header">
+            <span class="section-tag">Experience</span>
+            <h2>Where I've worked</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>AI Business Partner - Finance & Legal</h3>
+                        <span class="timeline-date">Jan 2026 - Present</span>
+                    </div>
+                    <p class="timeline-company">ŠKODA AUTO | Mladá Boleslav, Czechia</p>
+                    <ul class="timeline-details">
+                        <li>Define and execute comprehensive AI strategy for Finance and Legal functions</li>
+                        <li>Lead cross-functional AI initiatives from ideation through deployment</li>
+                        <li>Architect organizational AI governance frameworks covering EU AI Act compliance</li>
+                        <li>Orchestrate foundational AI projects driving automation of complex workflows</li>
+                    </ul>
+                </div>
                 </article>
                 <article class="role slide-up">
                     <div class="role-marker"></div>
@@ -173,7 +250,13 @@
                             </div>
                             <span class="date">2024 — 2025</span>
                         </div>
-                        <p>Rotated through Digital Delivery Center, Industry 4.0, and IT Process Integration. Built AI solutions and evaluated IT portfolio for VW Group.</p>
+                        <p class="timeline-company">ŠKODA AUTO | Mladá Boleslav, Czechia</p>
+                        <ul class="timeline-details">
+                            <li>Delivered AI-powered solutions for production optimization</li>
+                            <li>Led external consulting teams in defining AI strategic architecture</li>
+                            <li>Assessed VW Group IT project portfolio (multi-million EUR budget)</li>
+                            <li>Managed data mapping initiatives as Data Steward</li>
+                        </ul>
                     </div>
                 </article>
                 <article class="role slide-up">
@@ -186,7 +269,12 @@
                             </div>
                             <span class="date">2023 — 2024</span>
                         </div>
-                        <p>Audit work for multinational clients. Found errors that mattered, reconciled inventory discrepancies.</p>
+                        <p class="timeline-company">KPMG | Málaga, Spain</p>
+                        <ul class="timeline-details">
+                            <li>Identified critical account errors, preventing legal exposure for multinational clients
+                            </li>
+                            <li>Conducted comprehensive financial analysis and verification reports</li>
+                        </ul>
                     </div>
                 </article>
                 <article class="role slide-up">
@@ -199,79 +287,144 @@
                             </div>
                             <span class="date">2023</span>
                         </div>
-                        <p>Third-party risk management for banking clients. Assessed technology vendors for regulatory compliance.</p>
+                        <p class="timeline-company">Ernst & Young | Málaga, Spain</p>
+                        <ul class="timeline-details">
+                            <li>Analyzed reputational and financial risks for banking sector clients</li>
+                            <li>Developed comprehensive risk assessment frameworks for technology providers</li>
+                        </ul>
                     </div>
                 </article>
             </div>
-        </section>
+    </section>
 
-        <section class="education">
-            <div class="section-header">
-                <span class="section-tag">Education</span>
-                <h2>Academic background</h2>
+    <section class="education">
+        <div class="section-header">
+            <span class="section-tag">Education</span>
+            <h2>Academic background</h2>
+        </div>
+        <div class="edu-grid">
+            <article class="edu-card slide-up">
+                <span class="edu-year">2024 — 2025</span>
+                <h3>Master in Business Intelligence</h3>
+                <p class="school">International University of La Rioja</p>
+            </article>
+            <article class="edu-card highlight slide-up">
+                <div class="edu-badge">Top Graduate</div>
+                <span class="edu-year">2019 — 2023</span>
+                <h3>Bachelor of Business Administration</h3>
+                <p class="education-school">University of Málaga</p>
+                <p class="education-date">2019 - 2023</p>
+                <p class="education-details">
+                    <strong>Extraordinary Award:</strong> Best graduate 2019-2023<br>
+                    <strong>Gauss Award:</strong> Highest performance in Statistics & Econometrics
+                </p>
+        </div>
+        <div class="education-card">
+            <div class="education-icon">🌍</div>
+            <h3>Erasmus Exchange</h3>
+            <p class="education-school">University of Regensburg, Germany</p>
+            <p class="education-date">2022 - 2023</p>
+            <p class="education-details">Corporate Sustainability, Business Psychology, European Economy</p>
+        </div>
+        </div>
+        <div class="certifications">
+            <h3>Certifications</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <span class="cert-status in-progress">In Progress</span>
+                    <span class="cert-name">AI Product Manager Professional Certificate - Microsoft</span>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-status completed">2024</span>
+                    <span class="cert-name">AI Python for Beginners - DeepLearning.ai</span>
+                </div>
+                <div class="cert-item">
+                    <span class="cert-status completed">2024</span>
+                    <span class="cert-name">AI Agents in LangGraph - DeepLearning.ai</span>
+                </div>
             </div>
-            <div class="edu-grid">
-                <article class="edu-card slide-up">
-                    <span class="edu-year">2024 — 2025</span>
-                    <h3>Master in Business Intelligence</h3>
-                    <p class="school">International University of La Rioja</p>
-                </article>
-                <article class="edu-card highlight slide-up">
-                    <div class="edu-badge">Top Graduate</div>
-                    <span class="edu-year">2019 — 2023</span>
-                    <h3>Bachelor of Business Administration</h3>
-                    <p class="school">University of Málaga</p>
-                    <p class="achievement">Graduated first in class. Gauss Award for Statistics.</p>
-                </article>
-                <article class="edu-card slide-up">
-                    <span class="edu-year">2022 — 2023</span>
-                    <h3>Exchange Semester</h3>
-                    <p class="school">University of Regensburg, Germany</p>
-                </article>
-            </div>
-        </section>
+        </div>
+        </div>
+    </section>
 
-        <section id="contact" class="contact">
-            <div class="contact-content slide-up">
-                <span class="section-tag">Contact</span>
-                <h2>Let's talk</h2>
-                <p>I'm always open to interesting conversations about AI, data, or new opportunities.</p>
-                <div class="contact-links">
-                    <a href="mailto:gasparastorga13@gmail.com" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-intro">
+                I'm always open to discussing new opportunities, interesting projects,
+                or just having a conversation about AI and technology.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:gasparastorga13@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
                             <polyline points="22,6 12,13 2,6"></polyline>
                         </svg>
-                        Email me
-                    </a>
-                    <a href="https://www.linkedin.com/in/gaspar-antonio-astorga-palma/" target="_blank" rel="noopener" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    </div>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">gasparastorga13@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/gaspar-antonio-astorga-palma/" target="_blank" rel="noopener"
+                    class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
                             <rect x="2" y="9" width="4" height="12"></rect>
                             <circle cx="4" cy="4" r="2"></circle>
                         </svg>
-                        LinkedIn
-                    </a>
-                    <a href="https://github.com/gaaprojects" target="_blank" rel="noopener" class="contact-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </div>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Connect with me</span>
+                </a>
+                <a href="https://github.com/gaaprojects" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
                         </svg>
-                        GitHub
-                    </a>
-                </div>
+                    </div>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">@gaaprojects</span>
+                </a>
             </div>
-        </section>
-    </main>
+            <div class="contact-location">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Mladá Boleslav, Czechia</span>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>Gaspar Astorga — 2026</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Gaspar Astorga. Built with passion and code.</p>
+        </div>
     </footer>
 
     <script>
-        // Navbar scroll effect
-        const nav = document.querySelector('nav');
-        window.addEventListener('scroll', () => {
-            nav.classList.toggle('scrolled', window.scrollY > 50);
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
         });
 
         // Smooth scroll
@@ -303,4 +456,5 @@
         });
     </script>
 </body>
+
 </html>
