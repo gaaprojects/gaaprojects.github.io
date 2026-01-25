@@ -1,9 +1,13 @@
 const translations = {
+    // ========================================
+    // ENGLISH
+    // ========================================
     en: {
         nav: {
             about: "About",
             projects: "Projects",
             work: "Work",
+            education: "Education",
             contact: "Contact"
         },
         hero: {
@@ -12,6 +16,7 @@ const translations = {
             description: "Passionate about leveraging artificial intelligence and data analytics to drive meaningful change. I thrive at the intersection of technology and business, turning complex challenges into elegant solutions.",
             contactBtn: "Get in Touch",
             downloadCv: "Download CV",
+            scroll: "Scroll",
             cards: {
                 data: "Data Analytics",
                 ai: "AI Strategy",
@@ -34,6 +39,9 @@ const translations = {
         projects: {
             tag: "Projects",
             title: "What I've been working on",
+            status: {
+                completed: "Completed"
+            },
             p1: {
                 label: "ŠKODA AUTO",
                 title: "AI Governance Framework",
@@ -87,6 +95,7 @@ const translations = {
             ]
         },
         education: {
+            tag: "Education",
             title: "Education & Certifications",
             e1: {
                 title: "Master in Business Intelligence",
@@ -115,18 +124,25 @@ const translations = {
             ]
         },
         contact: {
+            tag: "Contact",
             title: "Let's Connect",
             intro: "I'm always open to discussing new opportunities, interesting projects, or just having a conversation about AI and technology.",
             email: "Email",
-            linkedin: { label: "LinkedIn", value: "Connect with me" }
+            linkedin: { label: "LinkedIn", value: "Connect with me" },
+            github: { label: "GitHub", value: "View my projects" }
         },
         footer: "Gaspar Astorga — 2026"
     },
+
+    // ========================================
+    // SPANISH
+    // ========================================
     es: {
         nav: {
             about: "Sobre mí",
             projects: "Proyectos",
             work: "Experiencia",
+            education: "Educación",
             contact: "Contacto"
         },
         hero: {
@@ -135,6 +151,7 @@ const translations = {
             description: "Apasionado por aprovechar la inteligencia artificial y el análisis de datos para impulsar cambios significativos. Me muevo en la intersección entre tecnología y negocios, convirtiendo desafíos complejos en soluciones elegantes.",
             contactBtn: "Contactar",
             downloadCv: "Descargar CV",
+            scroll: "Desplazar",
             cards: {
                 data: "Análisis de Datos",
                 ai: "Estrategia IA",
@@ -157,6 +174,9 @@ const translations = {
         projects: {
             tag: "Proyectos",
             title: "En qué he estado trabajando",
+            status: {
+                completed: "Completado"
+            },
             p1: {
                 label: "ŠKODA AUTO",
                 title: "Marco de Gobernanza de IA",
@@ -210,6 +230,7 @@ const translations = {
             ]
         },
         education: {
+            tag: "Educación",
             title: "Educación y Certificaciones",
             e1: {
                 title: "Máster en Business Intelligence",
@@ -238,10 +259,147 @@ const translations = {
             ]
         },
         contact: {
+            tag: "Contacto",
             title: "Conectemos",
             intro: "Siempre estoy abierto a discutir nuevas oportunidades, proyectos interesantes o simplemente tener una conversación sobre IA y tecnología.",
             email: "Email",
-            linkedin: { label: "LinkedIn", value: "Conecta conmigo" }
+            linkedin: { label: "LinkedIn", value: "Conecta conmigo" },
+            github: { label: "GitHub", value: "Ver mis proyectos" }
+        },
+        footer: "Gaspar Astorga — 2026"
+    },
+
+    // ========================================
+    // GERMAN
+    // ========================================
+    de: {
+        nav: {
+            about: "Über mich",
+            projects: "Projekte",
+            work: "Erfahrung",
+            education: "Bildung",
+            contact: "Kontakt"
+        },
+        hero: {
+            greeting: "Hallo, ich bin",
+            tagline: "KI & Daten Enthusiast<span class=\"accent\"> | </span>Digitale Transformation<span class=\"accent\"> | </span>Problemlöser",
+            description: "Leidenschaftlich daran interessiert, künstliche Intelligenz und Datenanalyse zu nutzen, um bedeutsame Veränderungen voranzutreiben. Ich bewege mich an der Schnittstelle von Technologie und Business und verwandle komplexe Herausforderungen in elegante Lösungen.",
+            contactBtn: "Kontakt aufnehmen",
+            downloadCv: "Lebenslauf herunterladen",
+            scroll: "Scrollen",
+            cards: {
+                data: "Datenanalyse",
+                ai: "KI-Strategie",
+                automation: "Automatisierung"
+            }
+        },
+        about: {
+            tag: "Über mich",
+            title: "Ein bisschen über mich",
+            p1: "Mich ziehen Probleme an, bei denen Technologie auf echte Geschäftsanforderungen trifft. Mein Hintergrund umfasst Beratung bei EY und KPMG, und jetzt leite ich KI-Initiativen in der Automobilindustrie.",
+            p2: "Ich habe Betriebswirtschaft in Málaga studiert, Zeit in Deutschland im Austausch verbracht und kürzlich einen Master in Business Intelligence abgeschlossen. Unterwegs habe ich einige Sprachen gelernt—Spanisch, Englisch, Deutsch und etwas Französisch.",
+            p3: "Außerhalb der Arbeit bleibe ich neugierig. Ich reise wenn möglich, bleibe aktiv und verbringe zu viel Zeit damit zu lesen, wohin sich KI als nächstes entwickelt.",
+            cards: {
+                location: { title: "Standort", value: "Prag, Tschechien" },
+                focus: { title: "Fokus", value: "KI-Strategie, Datenanalyse, Prozessautomatisierung" },
+                tools: { title: "Werkzeuge", value: "Python, SQL, Power BI, und was auch immer nötig ist" },
+                languages: { title: "Sprachen", value: "Spanisch, Englisch, Deutsch, Französisch" }
+            }
+        },
+        projects: {
+            tag: "Projekte",
+            title: "Woran ich gearbeitet habe",
+            status: {
+                completed: "Abgeschlossen"
+            },
+            p1: {
+                label: "ŠKODA AUTO",
+                title: "KI-Governance-Framework",
+                desc: "Entwurf und Implementierung eines unternehmensweiten KI-Governance-Frameworks, das Risikoklassifizierung, EU-KI-Gesetz-Compliance und operative Kontrollen für Finanz- und Rechtsfunktionen abdeckt."
+            },
+            p2: {
+                label: "ŠKODA AUTO",
+                title: "Produktions-KI-Lösungen",
+                desc: "Lieferung von KI-gestützten Lösungen zur Produktionsoptimierung mit Low-Code-Plattformen, Optimierung kritischer Geschäftsprozesse in der Fertigung."
+            },
+            p3: {
+                label: "VW Konzern",
+                title: "IT-Portfolio-Bewertung",
+                desc: "Bewertung eines IT-Projektportfolios im mehrstelligen Millionenbereich zur Maximierung des Geschäftswerts und ROI in der gesamten Produktionsdivision des Volkswagen Konzerns."
+            },
+            p4: {
+                label: "Persönlich",
+                title: "KI-Agenten & Experimente",
+                desc: "Aufbau und Experimentieren mit KI-Agenten, Erforschung praktischer Anwendungen großer Sprachmodelle.",
+                link: "Auf GitHub ansehen"
+            }
+        },
+        work: {
+            tag: "Erfahrung",
+            title: "Wo ich gearbeitet habe",
+            roles: [
+                {
+                    title: "AI Business Partner, Finanzen & Recht",
+                    company: "ŠKODA AUTO",
+                    date: "2026 — Heute",
+                    desc: "Definition der KI-Strategie für Finanz- und Rechtsfunktionen. Ich arbeite teamübergreifend—Business, IT, Data Science, Recht—um KI-Projekte von der Idee bis zur Implementierung zu begleiten."
+                },
+                {
+                    title: "Business Trainee",
+                    company: "ŠKODA AUTO",
+                    date: "2024 — 2025",
+                    desc: "Rotation durch Digital Delivery Center, Industrie 4.0 und IT-Prozessintegration. Entwicklung von KI-Lösungen und Bewertung des IT-Portfolios für den VW Konzern."
+                },
+                {
+                    title: "Wirtschaftsprüfer",
+                    company: "KPMG",
+                    date: "2023 — 2024",
+                    desc: "Prüfungsarbeit für multinationale Kunden. Identifizierung relevanter Fehler, Abstimmung von Inventardifferenzen."
+                },
+                {
+                    title: "Praktikant FSO Business Consulting",
+                    company: "EY",
+                    date: "2023",
+                    desc: "Drittpartei-Risikomanagement für Bankkunden. Bewertung von Technologieanbietern für regulatorische Compliance."
+                }
+            ]
+        },
+        education: {
+            tag: "Bildung",
+            title: "Bildung & Zertifizierungen",
+            e1: {
+                title: "Master in Business Intelligence",
+                school: "Internationale Universität La Rioja",
+                date: "2024 - 2025",
+                details: "Machine Learning, Python, R, SQL, Power BI, Big Data Analytics"
+            },
+            e2: {
+                badge: "🏆 Bester Absolvent",
+                title: "Bachelor in Betriebswirtschaft",
+                school: "Universität Málaga",
+                date: "2019 - 2023",
+                details: "<strong>Außerordentlicher Preis:</strong> Bester Absolvent 2019-2023<br><strong>Gauss-Preis:</strong> Beste Leistung in Statistik & Ökonometrie"
+            },
+            e3: {
+                title: "Erasmus-Austausch",
+                school: "Universität Regensburg, Deutschland",
+                date: "2022 - 2023",
+                details: "Unternehmensnachhaltigkeit, Wirtschaftspsychologie, Europäische Wirtschaft"
+            },
+            certTitle: "Zertifizierungen",
+            certs: [
+                { status: "In Bearbeitung", name: "AI Product Manager Professional Certificate - Microsoft" },
+                { status: "2024", name: "AI Python for Beginners - DeepLearning.ai" },
+                { status: "2024", name: "AI Agents in LangGraph - DeepLearning.ai" }
+            ]
+        },
+        contact: {
+            tag: "Kontakt",
+            title: "Lass uns vernetzen",
+            intro: "Ich bin immer offen für Gespräche über neue Möglichkeiten, interessante Projekte oder einfach einen Austausch über KI und Technologie.",
+            email: "E-Mail",
+            linkedin: { label: "LinkedIn", value: "Vernetze dich mit mir" },
+            github: { label: "GitHub", value: "Meine Projekte ansehen" }
         },
         footer: "Gaspar Astorga — 2026"
     }
