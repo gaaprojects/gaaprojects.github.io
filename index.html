@@ -13,36 +13,16 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <div class="nav-content">
-            <a href="#" class="logo">GA<span class="accent">.</span></a>
-            <ul class="nav-links">
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">GA<span class="accent">.</span></a>
+            <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-                <div class="theme-icon light">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </div>
-                <div class="theme-icon dark">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </div>
-            </div>
             <button class="nav-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -432,7 +412,7 @@
     <script>
         // Mobile menu toggle
         const navToggle = document.querySelector('.nav-toggle');
-        const navMenu = document.querySelector('.nav-links');
+        const navMenu = document.querySelector('.nav-menu');
 
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
@@ -440,27 +420,11 @@
         });
 
         // Close menu when clicking a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
+        document.querySelectorAll('.nav-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
             });
-        });
-
-        // Theme Toggle
-        const themeToggle = document.getElementById('theme-toggle');
-        const root = document.documentElement;
-
-        // Check for saved theme
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        root.setAttribute('data-theme', savedTheme);
-
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = root.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-            root.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
         });
 
         // Smooth scroll
