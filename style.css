@@ -154,6 +154,24 @@ a:hover {
     width: 100%;
 }
 
+/* Language Toggle */
+.lang-toggle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    transition: all var(--transition-fast);
+    margin-left: 16px;
+}
+
+.lang-toggle:hover {
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    background: rgba(59, 130, 246, 0.1);
+}
+
 /* Mobile Menu Toggle */
 .nav-toggle {
     display: none;
