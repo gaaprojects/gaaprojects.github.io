@@ -31,7 +31,7 @@ const translations = {
             p3: "Outside of work, I stay curious. I travel when I can, stay active, and spend too much time reading about where AI is heading next.",
             cards: {
                 location: { title: "Based in", value: "Prague, Czechia" },
-                focus: { title: "Focus", value: "Strategy, IT-Business Bridge, AI Implementation, New Tools Testing" },
+                focus: { title: "Focus", value: "Strategy, IT-Business Bridge, AI Implementation, Machine Learning & AI Advocate" },
                 tools: { title: "Tools", value: "Python, SQL, Power BI, and whatever gets the job done" },
                 languages: { title: "Languages", value: "Spanish, English, German, French" }
             }
@@ -172,7 +172,7 @@ const translations = {
             p3: "Fuera del trabajo, mantengo la curiosidad. Viajo cuando puedo, me mantengo activo y paso demasiado tiempo leyendo sobre hacia donde se dirige la IA.",
             cards: {
                 location: { title: "Ubicacion", value: "Praga, Republica Checa" },
-                focus: { title: "Enfoque", value: "Estrategia, Puente IT-Negocio, Implementacion de IA, Prueba de Nuevas Herramientas" },
+                focus: { title: "Enfoque", value: "Estrategia, Puente IT-Negocio, Implementacion de IA, Machine Learning & Defensor de IA" },
                 tools: { title: "Herramientas", value: "Python, SQL, Power BI, y lo que haga falta" },
                 languages: { title: "Idiomas", value: "Espanol, Ingles, Aleman, Frances" }
             }
@@ -313,7 +313,7 @@ const translations = {
             p3: "Ausserhalb der Arbeit bleibe ich neugierig. Ich reise wenn moglich, bleibe aktiv und verbringe zu viel Zeit damit zu lesen, wohin sich KI als nachstes entwickelt.",
             cards: {
                 location: { title: "Standort", value: "Prag, Tschechien" },
-                focus: { title: "Fokus", value: "Strategie, IT-Business Brucke, KI-Implementierung, Neue Tools Testen" },
+                focus: { title: "Fokus", value: "Strategie, IT-Business Brucke, KI-Implementierung, Machine Learning & KI-Befurworter" },
                 tools: { title: "Werkzeuge", value: "Python, SQL, Power BI, und was auch immer notig ist" },
                 languages: { title: "Sprachen", value: "Spanisch, Englisch, Deutsch, Franzosisch" }
             }
