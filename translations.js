@@ -12,7 +12,7 @@ const translations = {
         },
         hero: {
             greeting: "Hello, I'm",
-            tagline: "AI & Data Enthusiast<span class=\"accent\"> | </span>Digital Transformation Advocate<span class=\"accent\"> | </span>Problem Solver",
+            tagline: "Strategy & AI Implementation<span class=\"accent\"> | </span>IT-Business Bridge<span class=\"accent\"> | </span>Innovation Testing",
             description: "Passionate about leveraging artificial intelligence and data analytics to drive meaningful change. I thrive at the intersection of technology and business, turning complex challenges into elegant solutions.",
             contactBtn: "Get in Touch",
             downloadCv: "Download CV",
@@ -31,7 +31,7 @@ const translations = {
             p3: "Outside of work, I stay curious. I travel when I can, stay active, and spend too much time reading about where AI is heading next.",
             cards: {
                 location: { title: "Based in", value: "Prague, Czechia" },
-                focus: { title: "Focus", value: "AI Strategy, Data Analytics, Process Automation" },
+                focus: { title: "Focus", value: "Strategy, IT-Business Bridge, AI Implementation, New Tools Testing" },
                 tools: { title: "Tools", value: "Python, SQL, Power BI, and whatever gets the job done" },
                 languages: { title: "Languages", value: "Spanish, English, German, French" }
             }
@@ -153,7 +153,7 @@ const translations = {
         },
         hero: {
             greeting: "Hola, soy",
-            tagline: "Entusiasta de IA y Datos<span class=\"accent\"> | </span>Transformacion Digital<span class=\"accent\"> | </span>Resolucion de Problemas",
+            tagline: "Estrategia e Implementacion de IA<span class=\"accent\"> | </span>Puente IT-Negocio<span class=\"accent\"> | </span>Prueba de Innovaciones",
             description: "Apasionado por aprovechar la inteligencia artificial y el analisis de datos para impulsar cambios significativos. Me muevo en la interseccion entre tecnologia y negocios, convirtiendo desafios complejos en soluciones elegantes.",
             contactBtn: "Contactar",
             downloadCv: "Descargar CV",
@@ -172,7 +172,7 @@ const translations = {
             p3: "Fuera del trabajo, mantengo la curiosidad. Viajo cuando puedo, me mantengo activo y paso demasiado tiempo leyendo sobre hacia donde se dirige la IA.",
             cards: {
                 location: { title: "Ubicacion", value: "Praga, Republica Checa" },
-                focus: { title: "Enfoque", value: "Estrategia IA, Analisis de Datos, Automatizacion" },
+                focus: { title: "Enfoque", value: "Estrategia, Puente IT-Negocio, Implementacion de IA, Prueba de Nuevas Herramientas" },
                 tools: { title: "Herramientas", value: "Python, SQL, Power BI, y lo que haga falta" },
                 languages: { title: "Idiomas", value: "Espanol, Ingles, Aleman, Frances" }
             }
@@ -294,7 +294,7 @@ const translations = {
         },
         hero: {
             greeting: "Hallo, ich bin",
-            tagline: "KI & Daten Enthusiast<span class=\"accent\"> | </span>Digitale Transformation<span class=\"accent\"> | </span>Problemloser",
+            tagline: "Strategie & KI-Implementierung<span class=\"accent\"> | </span>IT-Business Brucke<span class=\"accent\"> | </span>Innovationstests",
             description: "Leidenschaftlich daran interessiert, kunstliche Intelligenz und Datenanalyse zu nutzen, um bedeutsame Veranderungen voranzutreiben. Ich bewege mich an der Schnittstelle von Technologie und Business und verwandle komplexe Herausforderungen in elegante Losungen.",
             contactBtn: "Kontakt aufnehmen",
             downloadCv: "Lebenslauf herunterladen",
@@ -313,7 +313,7 @@ const translations = {
             p3: "Ausserhalb der Arbeit bleibe ich neugierig. Ich reise wenn moglich, bleibe aktiv und verbringe zu viel Zeit damit zu lesen, wohin sich KI als nachstes entwickelt.",
             cards: {
                 location: { title: "Standort", value: "Prag, Tschechien" },
-                focus: { title: "Fokus", value: "KI-Strategie, Datenanalyse, Prozessautomatisierung" },
+                focus: { title: "Fokus", value: "Strategie, IT-Business Brucke, KI-Implementierung, Neue Tools Testen" },
                 tools: { title: "Werkzeuge", value: "Python, SQL, Power BI, und was auch immer notig ist" },
                 languages: { title: "Sprachen", value: "Spanisch, Englisch, Deutsch, Franzosisch" }
             }

@@ -25,6 +25,22 @@
                 <a href="#contact" data-i18n="nav.contact">Contact</a>
             </div>
             <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
                 <div class="lang-selector">
                     <button class="lang-btn active" data-lang="en">EN</button>
                     <button class="lang-btn" data-lang="es">ES</button>
@@ -50,7 +66,7 @@
                 <div class="hero-text">
                     <p class="hero-greeting slide-up" data-i18n="hero.greeting">Hello, I'm</p>
                     <h1 class="hero-name slide-up">Gaspar Astorga</h1>
-                    <p class="hero-tagline slide-up" data-i18n="hero.tagline">AI & Data Enthusiast<span class="accent"> | </span>Digital Transformation Advocate<span class="accent"> | </span>Problem Solver</p>
+                    <p class="hero-tagline slide-up" data-i18n="hero.tagline">Strategy & AI Implementation<span class="accent"> | </span>IT-Business Bridge<span class="accent"> | </span>Innovation Testing</p>
                     <p class="hero-description slide-up" data-i18n="hero.description">
                         Passionate about leveraging artificial intelligence and data analytics to drive meaningful change.
                         I thrive at the intersection of technology and business, turning complex challenges into elegant solutions.
@@ -70,15 +86,12 @@
                 <div class="hero-visual">
                     <div class="floating-cards-container">
                         <div class="floating-card card-1 slide-up">
-                            <span class="card-icon">📊</span>
                             <span class="card-text" data-i18n="hero.cards.data">Data Analytics</span>
                         </div>
                         <div class="floating-card card-2 slide-up">
-                            <span class="card-icon">🤖</span>
                             <span class="card-text" data-i18n="hero.cards.ai">AI Strategy</span>
                         </div>
                         <div class="floating-card card-3 slide-up">
-                            <span class="card-icon">⚡</span>
                             <span class="card-text" data-i18n="hero.cards.automation">Automation</span>
                         </div>
                     </div>
@@ -109,28 +122,24 @@
                     </div>
                     <div class="about-cards">
                         <div class="info-card slide-up">
-                            <div class="info-icon">📍</div>
                             <div class="info-content">
                                 <h3 data-i18n="about.cards.location.title">Based in</h3>
                                 <p data-i18n="about.cards.location.value">Prague, Czechia</p>
                             </div>
                         </div>
                         <div class="info-card slide-up">
-                            <div class="info-icon">🎯</div>
                             <div class="info-content">
                                 <h3 data-i18n="about.cards.focus.title">Focus</h3>
-                                <p data-i18n="about.cards.focus.value">AI Strategy, Data Analytics, Process Automation</p>
+                                <p data-i18n="about.cards.focus.value">Strategy, IT-Business Bridge, AI Implementation, New Tools Testing</p>
                             </div>
                         </div>
                         <div class="info-card slide-up">
-                            <div class="info-icon">🛠</div>
                             <div class="info-content">
                                 <h3 data-i18n="about.cards.tools.title">Tools</h3>
                                 <p data-i18n="about.cards.tools.value">Python, SQL, Power BI, and whatever gets the job done</p>
                             </div>
                         </div>
                         <div class="info-card slide-up">
-                            <div class="info-icon">🌍</div>
                             <div class="info-content">
                                 <h3 data-i18n="about.cards.languages.title">Languages</h3>
                                 <p data-i18n="about.cards.languages.value">Spanish, English, German, French</p>
@@ -282,7 +291,6 @@
                 </div>
                 <div class="education-grid">
                     <div class="education-card slide-up">
-                        <div class="education-icon">🎓</div>
                         <h3 data-i18n="education.e1.title">Master in Business Intelligence</h3>
                         <p class="education-school" data-i18n="education.e1.school">International University of La Rioja</p>
                         <p class="education-date" data-i18n="education.e1.date">2024 - 2025</p>
@@ -290,7 +298,6 @@
                     </div>
                     <div class="education-card featured slide-up">
                         <div class="education-badge" data-i18n="education.e2.badge">Top Graduate</div>
-                        <div class="education-icon">🎓</div>
                         <h3 data-i18n="education.e2.title">Bachelor of Business Administration</h3>
                         <p class="education-school" data-i18n="education.e2.school">University of Malaga</p>
                         <p class="education-date" data-i18n="education.e2.date">2019 - 2023</p>
@@ -300,14 +307,12 @@
                         </p>
                     </div>
                     <div class="education-card slide-up">
-                        <div class="education-icon">🌍</div>
                         <h3 data-i18n="education.e3.title">Erasmus Exchange</h3>
                         <p class="education-school" data-i18n="education.e3.school">University of Regensburg, Germany</p>
                         <p class="education-date" data-i18n="education.e3.date">2022 - 2023</p>
                         <p class="education-details" data-i18n="education.e3.details">Corporate Sustainability, Business Psychology, European Economy</p>
                     </div>
                     <div class="education-card slide-up">
-                        <div class="education-icon">🛡</div>
                         <h3 data-i18n="education.e4.title">Private Security Studies</h3>
                         <p class="education-school" data-i18n="education.e4.school">Academy of Security, Malaga</p>
                         <p class="education-date" data-i18n="education.e4.date">2018 - 2019</p>

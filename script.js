@@ -138,6 +138,40 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ========================================
+    // THEME TOGGLE
+    // ========================================
+
+    const themeToggle = document.querySelector('.theme-toggle');
+
+    function setTheme(isDark) {
+        if (isDark) {
+            document.body.classList.remove('light-mode');
+        } else {
+            document.body.classList.add('light-mode');
+        }
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const isCurrentlyDark = !document.body.classList.contains('light-mode');
+            setTheme(!isCurrentlyDark);
+        });
+    }
+
+    // Load saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        setTheme(false);
+    } else if (savedTheme === 'dark') {
+        setTheme(true);
+    } else {
+        // Check system preference
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark);
+    }
+
+    // ========================================
     // LANGUAGE SWITCHING
     // ========================================
 
